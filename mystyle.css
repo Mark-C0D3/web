@@ -36,6 +36,12 @@ p {
 }
 
 .container {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
 	background-color: #ffffff2c;
 	border-radius: 30px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);

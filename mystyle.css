@@ -181,7 +181,7 @@ footer {
     background-color: rgba(255, 255, 255, 0.295);
     box-shadow: 0px 10px 15px -10px rgba(0,0,0,0.75);
     color: #fff;
-    font-size: 14px;
+    font-size: 0px;
     bottom: 0;
     position: fixed;
     left: 0;
@@ -194,19 +194,30 @@ footer {
     max-width:40%;
     position: relative;
     width: 350px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
     
     
 
 }
 
 footer p {
+  font-size: 10px;
     margin: 6px;
 
 }
 
 
 footer a {
-  -webkit-animation: colorchange 10s infinite alternate ease-out;
+  font-size: 10px;
+  text-shadow: 0px 0px 4px #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
     text-decoration: none;
     
 }
